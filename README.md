@@ -3,7 +3,7 @@
 
 <img src="https://deardiary.ai/complete-tree.png" width="400" alt="Illustration of a peaceful tree, leaning to the left, with birds flying away" />
 
-## Why use it?
+## Our Motivation & Intention
 We want you to journal and to feel better. [Studies](https://pubmed.ncbi.nlm.nih.gov/23790815/) [show](https://pubmed.ncbi.nlm.nih.gov/16942980/) that journaling increases mindfulness and alleviates stress, anxiety, and depression.
 
 We also want you to create music. Like journaling, the mental health benefits of creating music are [well-documented](https://www.sciencedirect.com/science/article/abs/pii/S0272735809000026). And music is awesome.
@@ -81,15 +81,16 @@ We save entries using Google Firestore for realtime persistence so that users ca
 
 Jazz Keys: https://jazzkeys.plan8.co/
 
-Magenta-js: https://github.com/magenta/magenta-js
+[Journal tree](http://clipart-library.com/clip-art/tree-silhouette-svg-25.htm)
 
-Tone.js: https://tonejs.github.io/
 
 ### Credit:
 
 [vaderSentiment-js](https://github.com/vaderSentiment/vaderSentiment-js)
 
-[Journal tree](http://clipart-library.com/clip-art/tree-silhouette-svg-25.htm)
+Magenta-js: https://github.com/magenta/magenta-js
+
+Tone.js: https://tonejs.github.io/
 
 [Excellent tutorial on MusicVAE](https://medium.com/@torinblankensmith/melody-mixer-using-deeplearn-js-to-mix-melodies-in-the-browser-8ad5b42b4d0b)
 
@@ -110,8 +111,6 @@ Place your .mid file in the public folder and manually update /src/components/Mi
 #### To run the repo
 
 ```
-// make sure you have next.js installed
-npm install -g next
 // install project dependencies via:
 yarn
 // run next dev:
