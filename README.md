@@ -10,9 +10,6 @@ We also want you to create music. Like journaling, the mental health benefits of
 
 ## How it works
 
-**Co-Creative AI**
-Human Creative input (story, journal text etc) + AI System that detects sentiment and generates music from text
-
 **Sentiment Analysis**
 As you type each word, we perform sentiment analysis using the popular natural language processing library VADER.js. This returns a prediction score from -1.0 to +1.0, that we interpret as a sentiment along the spectrum of negative to neutral to positive. 
 
@@ -22,8 +19,9 @@ We use Google’s Magenta MusicVAE pre-trained model to interpolate between two 
 **Visuals and a e s t h e t i c**
 We opt for minimal and calming design because we want people to freely express their thoughts and feelings. We animate an SVG tree with leaves and birds by covering parts of the image with white squares that we dynamically remove as the user types. 
 
-**Playfulness and Creativity**
-We build in Easter eggs to encourage playfulness and creativity. The music changes with punctuation, special characters, upper case, and deleting. Try strong emotion words to see what you can create!
+**Playfulness and Co-Creativity**
+
+Human Creative input (story, journal text etc) is augmented with AI System that detects sentiment and generates music from text. The goal of the tool is to leverage both human creativity and computational creativty. For examples we put in Easter eggs to encourage playfulness and creativity. The music changes with punctuation, special characters, upper case, and deleting. Try strong emotion words to see what you can create!
 
 **Playback and social sharing**
 We save entries using Google Firestore for realtime persistence so that users can save, share, and replay the exact song they create. We integrate "share to Twitter" and "share as a link" functionality. 
