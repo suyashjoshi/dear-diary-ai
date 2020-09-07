@@ -86,7 +86,7 @@ export const AboutOverlay = ({ setIsOpen }: Props) => {
           As you write, you build your own visual and musical story.
         </p>
         <p style={{ fontFamily: 'San Francisco, Arial, sans serif' }}>
-          We created this for The BitRate: Remote Machine Learning & Music Series jam in our free time in August 2020.
+          We created this for The BitRate: Remote Machine Learning & Music Series jam in our free time in August 2020. Code is open sourced on <a href="https://github.com/StephenHaney/dear-diary-ai">GitHub</a>
         </p>
         <h2 style={{ marginTop: '50px' }}>Authors</h2>
         <p style={{ fontFamily: 'San Francisco, Arial, sans serif' }}>
