@@ -9,6 +9,10 @@ We want you to journal and to feel better. [Studies](https://pubmed.ncbi.nlm.nih
 We also want you to create music. Like journaling, the mental health benefits of creating music are [well-documented](https://www.sciencedirect.com/science/article/abs/pii/S0272735809000026). And music is awesome.
 
 ## How it works
+
+**Co-Creative AI**
+Human Creative input (story, journal text etc) + AI System that detects sentiment and generates music from text
+
 **Sentiment Analysis**
 As you type each word, we perform sentiment analysis using the popular natural language processing library VADER.js. This returns a prediction score from -1.0 to +1.0, that we interpret as a sentiment along the spectrum of negative to neutral to positive. 
 
